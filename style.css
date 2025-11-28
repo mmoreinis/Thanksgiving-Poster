@@ -1,0 +1,150 @@
+html {
+  height: 100%;
+  width: 100%;
+  padding-top:80px;
+  background-color:black;
+}
+
+#poster {
+  width:500px;
+  height:640px;
+  margin:auto;
+  background:#FFF7F4;
+  color:#c94a13;
+  text-align:center;
+  position:relative;
+}
+
+#headings {
+  margin-top:50px;
+  display:inline-block;
+}
+
+#bottom {
+  height:270px;
+  width:100%;
+  background-color: #B33D0B;
+  position:absolute;
+  bottom:0;
+  left:0;
+  z-index:1;
+  color:#FFF7F4;
+}
+
+#ribbon {
+  width:400px;
+  height:100px;
+  margin:auto;
+  background: url(images/ribbon.gif) top no-repeat;
+  color:#FFF7F4;
+  padding-top:10px;
+}
+
+#turkey {
+  position:absolute;
+  width:400px;
+  left:0;
+  right:0;
+  margin: auto; 
+  margin-top:15px;
+  z-index:2;
+}
+
+#three-box {
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  padding:10px 25px 15px 25px;
+}
+
+#date {
+  float:left;
+  width:33%;
+  line-height:.2em;
+}
+
+#details {
+  float:left;
+  width:67%;
+  padding: 0 0 0 20px;
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+
+#date, #accepting {
+  background:#c94a13;
+}
+
+/* Fine Tuning Positioning */
+
+#accepting {
+  display:inline-block;
+  padding:5px 10px;
+  width:100%;
+}
+
+#headings h4 {
+  padding-bottom:20px;
+}
+
+#headings, #ribbon {
+  line-height:0em;
+}
+
+
+/* Font Family Fun */
+@font-face {
+    font-family: "Special_Elite";
+    src: url("Special_Elite/SpecialElite-Regular.ttf");
+}
+
+#three-box {
+  font-family: tahoma;
+}
+
+
+#date h4 {
+  font-size:12pt;
+}
+
+#headings h1 {
+  font-size:42pt;
+  letter-spacing: -2px;
+  font-family: "Special_Elite"!important;
+}
+
+#headings h4 {
+  font-size:14pt;
+}
+
+#headings h4, #ribbon {
+  font-family:georgia;
+}
+
+#ribbon {
+  font-size:16pt;
+}
+
+#date h3 {
+  font-size:24pt;
+}
+
+#accepting h4 {
+  line-height:0em;
+}
+#accepting p {
+  font-size:9pt;
+}
+
+#more {
+  font-size:11pt;
+}
+
+#more a {
+  color:#FFF7F4;
+  text-decoration:none;
+}
